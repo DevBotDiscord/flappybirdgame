@@ -174,7 +174,7 @@ const bird = {
 
   gravity: 1,
   jump: 5,
-  speed: 1,
+  speed: 2,
   rotation: 1,
 
   draw: function () {
