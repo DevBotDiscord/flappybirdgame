@@ -172,10 +172,10 @@ const bird = {
 
   frame: 0,
 
-  gravity: 0.19,
-  jump: 4.6,
+  gravity: 0.1,
+  jump: 5,
   speed: 0,
-  rotation: 0,
+  rotation: 1,
 
   draw: function () {
     let bird = this.animation[this.frame];
