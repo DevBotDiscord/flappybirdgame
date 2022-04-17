@@ -168,14 +168,14 @@ const bird = {
   w: 34,
   h: 26,
 
-  radius: 12,
+  radius: 3,
 
-  frame: 0,
+  frame: 15,
 
-  gravity: 0.2  ,
-  jump: 5,
-  speed: 2,
-  rotation: 1,
+  gravity: 0.05  ,
+  jump: 3,
+  speed: 5,
+  rotation: 0.01,
 
   draw: function () {
     let bird = this.animation[this.frame];
